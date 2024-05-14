@@ -9,10 +9,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <nav>
-          {" "}
-          <Link to="/" className="logo">
+          <div className="logo">
             <img src="./img/EwEb-Dev.png" alt="rasm" />
-          </Link>
+          </div>
+
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
