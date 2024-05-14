@@ -8,13 +8,11 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Link to="/" className="logo">
-          EwEb
-        </Link>
-        <header>
-          <h1> O'zim Haqimda</h1>
-        </header>
         <nav>
+          {" "}
+          <Link to="/" className="logo">
+            <img src="./img/EwEb-Dev.png" alt="rasm" />
+          </Link>
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
